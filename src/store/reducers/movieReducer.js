@@ -16,7 +16,7 @@ export const reducer = (state=initialState, action) => {
      
     case ADD_MOVIE:
         return {
-          ...state,movies:[...movies,{...action.payload,id:state.movies.length}]
+          ...state,movies:[...state.movies,{...action.payload,id:state.movies.length}]
         };
       
       
