@@ -1,5 +1,4 @@
 import { ADD_MOVIE, DELETE_MOVIE } from '../actions/movieActions.js';
-import {nanoid} from "nanoid";
 import movies from '../../data.js';
 
 const initialState = {
